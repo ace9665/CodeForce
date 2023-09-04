@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <a id="top"></a>
+  <title>Enrollment Form</title>
+  <link rel="stylesheet" href="thestyle.css">
+ </head>
+ <body>
+  <header>
+   <h2>Sample</h2>
+  </header>
+
+  <section>
+   <nav style="padding:20px; height: 600px;">
+    <ul>
+      <li><a href="Sample.html">Homepage</a></li>
+      <li><a href="MCUsuperheroes.html">MCU Superheroes</a></li>
+      <li><a href="EnrollmentForm.html" class="active">Enrollment Form</a></li>
+    </ul>
+   </nav>
+  
+   <article style="padding:20px; height: 600px;"><br>
+    <form>
+		<table border="1" width="600px" align="center">
+			<tr style="text-align:center; border-bottom: 1px solid black;">
+				<th colspan="3">Enrollment Information</th>
+			</tr>
+			<tr style="text-align: right;">
+				<td>First Name</td>
+				<td><input style="width: 200px" /></td>
+				<td></td>
+			</tr>
+			<tr style="text-align: right;">
+				<td>Last Name</td>
+				<td><input style="width: 200px" /></td>
+				<td></td>
+			</tr>
+			<tr style="text-align: right;">
+				<td></td>
+				<td>Street Address:</td>
+				<td><input style="width: 200px" /></td>
+			</tr>
+			<tr style="text-align: right;">
+				<td>Address</td>
+				<td>City:</td>
+				<td><input style="width: 200px" /></td>
+			</tr>
+			<tr style="text-align: right;">
+				<td></td>
+				<td>Postal Code:</td>
+				<td><input style="width: 200px" /></td>
+			</tr>
+			<tr style="text-align: right;">
+				<td>Email Address:</td>
+				<td><input style="width: 200px" /></td>
+				<td></td>
+			</tr>
+			<tr style="text-align: right;">
+				<td>Phone Number:</td>
+				<td><input style="width: 200px" /></td>
+				<td></td>
+			</tr>
+		</table>
+		<table border="1" width="600px" align="center">
+			<tr style="text-align:center; border-bottom: 1px solid black;">
+				<td> How would you like to be contacted?</td>
+			</tr>
+			<tr style="text-align: left;">
+				<td style=" padding-left:35%"><input type="radio" name="contact" value="text" checked="checked">Text Message</td>
+			</tr>
+			<tr style="text-align: left;">
+				<td style=" padding-left:35%"><input type="radio" name="contact" value="email">Email</td>
+			</tr>
+		</table>
+		<table border="1" width="600px" align="center">
+			<tr style="text-align:center; border-bottom: 1px solid black;">
+				<td> Which course(s) do you plan to take?</td>
+			</tr>
+			<tr style="text-align: left;">
+				<td style=" padding-left:35%"><input type="checkbox" name="course" value="HTML">HTML</td>
+			</tr>
+			<tr style="text-align: left;">
+				<td style=" padding-left:35%"><input type="checkbox" name="course" value="C++">C++</td>
+			</tr>
+			<tr style="text-align: left;">
+				<td style=" padding-left:35%"><input type="checkbox" name="course" value="Java">Java</td>
+		</table>
+		<table border="1" width="600px" align="center">
+			<tr style="text-align:center; border-bottom: 1px solid black;">
+			<td>Payment Method:
+				   <select name="Payment Method">
+					  <option value="VISA">VISA</option>
+					  <option value="MASTERCARD">MASTERCARD</option>
+					  <option value="AMEX">AMEX</option>
+			</td>
+			</tr>
+		</table>
+		<table border="1" width="600px" align="center">
+			<tr style="text-align:center; border-bottom: 1px solid black;">
+			<td>Special Request</td></tr>
+			<tr style="text-align:center; border-bottom: 1px solid black;"><td>       
+			<textarea name="SpecialRequest" rows="7" cols="70"></textarea>
+			</td></tr>
+		</table>
+		<table border="1" width="600px" align="center">
+			<tr style="text-align:center; border-bottom: 1px solid black;">
+			<td>Rate your experience(10 is the best)</td>
+			<td>1<input type="range" min="1" max="10" step="1" value="5">10</td>
+			</tr>
+		</table>
+                				
+	</form>        
+   </article>
+  </section>
+
+  <footer>
+   <p>Working Together? lol</p>
+  </footer>
+ </body>
+</html>

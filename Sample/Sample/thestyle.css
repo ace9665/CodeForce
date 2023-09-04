@@ -1,0 +1,95 @@
+header {
+  background-color: white;
+  
+  text-align: center;
+  font-size: 27px;
+  color: #BEAB72;
+  height:100px;                
+               
+  border-style:solid;                
+  border-color:#111111;
+  border-size:2 px;
+  background-image:url("logo.jpg");
+  background-attachment: fixed; 
+  background-repeat : no-repeat;
+  background-size : 190px 105px;
+  
+}
+
+nav {
+  float: left;
+  width: 10%;
+  height: 500px; 
+  background: #333333;
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article { 		
+	  text-align: center-left;
+	  background-color: #F9F9F4;
+	  height: 500px;
+	  padding-left: 10%;
+}
+ 
+.center {
+  display: block;
+  margin-left: 40%;
+  margin-right: 60%;
+  margin-top: 10px;
+}
+
+H3 {
+	font-family: verdana;
+	color: #696969;
+}
+	
+p#end{
+	background-color:#F9F9F4;
+	font-family:"Comic Sans MS", cursive, sans-serif;
+	color:#228B22;
+	text-align:center;
+}
+	
+a.return:link{color:white; float:right; padding-right:50px;}
+a.return:hover{background-color:black; color:white; float:right; padding-right:50px;}
+
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer {
+  background-color: #333333;
+  padding: 5px;
+  text-align: center;
+  color: white;
+  margin:0;
+}
+
+
+table tr, td {
+	border-collapse: separate; border-spacing: 10px 5px;
+            width: 200px;
+            border-right: hidden;
+            border-left: hidden;
+            border-top: hidden;
+            border-bottom: hidden;
+}
+
+
+table th{
+	border-collapse: separate; border-spacing: 10px 5px;
+            width: 200px;
+            border-right: hidden;
+            border-left: hidden;
+            border-top: hidden;
+}            
+
+.demo{color:#333333;}	
+
